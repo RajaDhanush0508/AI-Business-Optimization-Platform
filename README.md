@@ -19,6 +19,31 @@
 
 Price optimization is a crucial aspect of e-commerce, involving the analysis of historical transaction data to determine trends and abnormalities in product sales. The goal is to predict the optimal price for a product that maximizes both customer likelihood to purchase and company profit margin. This project focuses on using various machine learning algorithms to model historical data and generate a demand curve that indicates the approximate best price for a product, with sales volume being a key factor.
 
+## Live Demo
+
+The app is deployed on Streamlit and can be accessed here:
+
+- https://ai-business-optimization-platform-raja.streamlit.app/
+
+## Project Files
+
+- `app.py` — Streamlit application for price optimization and interactive analytics.
+- `requirements.txt` — Python dependencies needed for Streamlit deployment.
+- `Price_Optimization.ipynb` — notebook containing data analysis and modeling exploration.
+- `Price_Optimization.html` — exported HTML report view of project findings.
+- CSV dataset files — used as input data for training and reporting.
+
+## Run Locally
+
+To run this app locally, install dependencies and launch Streamlit:
+
+```powershell
+pip install -r requirements.txt
+streamlit run app.py
+```
+
+Then open the browser link shown in the terminal.
+
 ## Dataset
 
 The project utilizes the Brazilian public E-commerce dataset, which contains real transactional data from the Olist store based in Brazil. This dataset comprises over 100,000 records and 40 features spanning from 2016 to 2018. The consolidated dataset includes features relevant to the project's objectives, and only "delivered" order status records are considered for analysis.
