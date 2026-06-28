@@ -1,0 +1,9 @@
+ID,Warehouse_block,Product_importance,Gender,Cost_of_the_Product,Prior_purchases,Discount_offered
+Lenovo,D,high,F,90890,19,24
+Dell,E,low,F,51241,13,25
+HP,C,high,M,79000,42,15
+Acer,A,medium,M,23900,34,27
+Lenovo 2,D,high,M,65000,11,8
+Dell 2,B,medium,F,45000,28,2
+Acer 2,D,high,F,56000,27,1
+HP2,C,low,M,78890,25,2
